@@ -35,5 +35,5 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker image
-      run: docker tag ci-cd-demo <your-dockerhub-username>/ci-cd-demo:latest
-    - run: docker push <your-dockerhub-username>/ci-cd-demo:latest
+      run: docker tag ci-cd-demo miketam76/ci-cd-demo:latest
+    - run: docker push miketam76/ci-cd-demo:latest
