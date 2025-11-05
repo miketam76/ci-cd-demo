@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Start app
-CMD ["npm", "nodemon", "start"]
+CMD ["npm", "start"]
