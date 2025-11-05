@@ -89,7 +89,7 @@ git branch -M main
 git remote add origin <your-github-repo-url>
 git push -u origin main
 ```
-#Step 4: Set Up GitHub Actions (CI/CD)
+# Step 4: Set Up GitHub Actions (CI/CD)
 
 In your repo, create the folder:
 .github/workflows/
